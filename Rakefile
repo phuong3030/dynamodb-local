@@ -9,7 +9,7 @@ task :default => :prepare
 task :prepare do
   require 'open-uri'
 
-  dynamodb_local_url  = 'https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz'
+  dynamodb_local_url  = 'https://s3-ap-southeast-1.amazonaws.com/dynamodb-local-singapore/dynamodb_local_latest.tar.gz'
   ext_dir             = 'lib/dynamodb/local/ext'
   local_path          = "#{ext_dir}/dynamodb_local.tar.gz"
   jar_path            = "#{ext_dir}/DynamoDBLocal.jar"
